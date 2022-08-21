@@ -26,7 +26,7 @@ public class Jeu {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String nom;
+    private String nomDuJeu;
     private String description;
     private LocalDate dateSortie;
     private String image;
